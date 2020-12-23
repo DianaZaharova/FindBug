@@ -1,0 +1,79 @@
+
+/* 100-600px */
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+  .wrapper {
+    padding-bottom: 33.889vw;
+  }
+
+.main__title {
+    font: bold 8.958vw/9.653vw robotobold, arial, helvetica, sans-serif;
+    margin: 0 0 6.556vw 0;
+  }
+
+.main__subtitle {
+    font: bold 3.319vw/5vw robotobold, arial, helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 7.4vw;
+  }
+
+  .nav {
+    margin: 0 auto 11.461vw auto;
+  }
+
+.nav__level {
+    padding: 0 0 2.667vw  0;
+  }
+
+  .level__input{
+    font: bold 7.472vw/4.097vw robotobold, arial, helvetica, sans-serif;
+    height: 8vw;
+    padding-left: 9.292vw;
+  }
+
+  .level__active::before {
+    top: 18%;
+  }
+
+.main__btn {
+    font: bold 5.222vw/3.569vw robotobold, arial, helvetica, sans-serif;
+    padding: 4.014vw 13.903vw;
+    margin-left: 15.332vw;
+  }
+
+.card-wrap__card {
+    display: none;
+  }
+}
+
+/* 600-1000px */
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+.main__title {
+    font: bold 4.958vw/5.653vw robotobold, arial, helvetica, sans-serif;
+  }
+
+.main__subtitle {
+    font: bold 1.919vw/1vw robotobold, arial, helvetica, sans-serif;
+  }
+
+.nav__level {
+    font: bold 4.472vw/6.097vw robotobold, arial, helvetica, sans-serif;
+    padding: 0 0 0.667vw 0;
+  }
+
+.main__btn {
+    font: bold 3.222vw/2.569vw robotobold, arial, helvetica, sans-serif;
+    padding: 2.6vw 6.303vw;
+  }
+
+  .level__input {
+    padding-left: 5.292vw;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1399px) {
+  .main__level {
+    padding: 0 0 1.667vw 3.778vw;
+  }
+}

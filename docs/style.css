@@ -1,0 +1,177 @@
+.body {
+  margin: 0 auto;
+  background: fixed no-repeat url(img/Background.png);
+  background-size: cover;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+}
+
+.wrapper {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+  padding-left: 6.250vw;
+}
+
+.main__title {
+  color: #fff;
+  font: bold 3.958vw/4.653vw robotobold, arial, helvetica, sans-serif;
+  margin: 0 0 0.556vw 0;
+}
+
+.main__subtitle {
+  color: #fff;
+  display: inline-block;
+  font: bold 1.319vw/1.528vw robotobold, arial, helvetica, sans-serif;
+  margin: 0 0 4.167vw 0;
+}
+
+.nav {
+  margin-bottom: 11.461vw;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.nav__level {
+  cursor: pointer;
+  position: relative;
+}
+
+.level__active::before {
+  content: "";
+  top: 30%;
+  width: 20px;
+  height: 20px;
+  background: #d62b2e;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.level__input:hover {
+  color: #d62b2e;
+}
+
+.level__input {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font: bold 3.472vw/4.097vw robotobold, arial, helvetica, sans-serif;
+  padding: 0 0 1.146vw 2.292vw;
+}
+
+.main__btn {
+  color: #fff;
+  font: bold 2.222vw/2.569vw robotobold, arial, helvetica, sans-serif;
+  padding: 2.014vw 5.903vw;
+  background-color: #d62b2e;
+  text-decoration: none;
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 1px 12px 10px 0 #00000059;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.main__btn:hover {
+  opacity: 0.8;
+
+}
+
+.card-wrap__card{
+  position: absolute;
+  background: no-repeat url(img/card1.png);
+  background-size: contain;
+  width: 15.139vw;
+  height: 23.681vw;
+  top: 21.722vw;
+  left: 55.556vw;
+  transform: rotate(11.9deg);
+}
+
+.card-wrap__card-up{
+  transform: rotate(28.26deg);
+  top: -1.736vw;
+  left: 81%;
+  transition: transform 0.3s ease-out; 
+}
+
+.card-wrap__card-up:hover{
+  transform: rotate(19.26deg);
+}
+
+/*  cards */
+
+.card-game {
+  display: flex;
+  justify-content: center;
+  padding-top: 5.731vw;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: transparent;
+  perspective: 1000px;
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  padding: 0 16.542vw 19.542vw 0;
+}
+
+.card_hover:hover {
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+  transform: rotate(-3.08deg) translateY(-15px);
+  transition: .5s linear;
+}
+
+.card__front, 
+.card__back,
+.card__bug {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__front {
+  background: no-repeat url(img/card1.png);
+  background-size: contain;
+}
+
+.card__bug {
+  background: no-repeat url(img/bagCard.png);
+  transform: rotateY(180deg);
+  background-size: contain;
+}
+
+.card__back {
+  background: no-repeat url(img/GameOver.png);
+  transform: rotateY(180deg);
+  background-size: contain;
+}
+
+.six {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.ten {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
