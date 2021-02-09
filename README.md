@@ -4,6 +4,8 @@
 ### Дается толька ОДНА попытка!!
 
 ------------
+##Демо 
+![Demo](https://media.giphy.com/media/dOtVE7Fs3ydvi9q0VR/giphy.gif)
 
 ####  В зависимости от выбора сложности увеличивается количетсво карт
  
@@ -15,5 +17,5 @@
 ### Карта с Багом
 ![Иллюстрация к проекту](https://github.com/DianaZaharova/FindBug/raw/main/docs/img/bagCard.png)
 ------------
-### Обычная карты
+### Обычная карта
 ![Иллюстрация к проекту](https://github.com/DianaZaharova/FindBug/raw/main/docs/img/GameOver.png)
