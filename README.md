@@ -2,10 +2,10 @@
 
 ### Суть игры заключается в том что-бы среди обычных карт найти карту с багом
 ### Дается толька ОДНА попытка!!
+[Ссылка на проект](https://dianazaharova.github.io/FindBug/)
 
 ------------
 ## Демо 
-[Ссылка на проект](https://dianazaharova.github.io/FindBug/)
 ![Demo](https://media.giphy.com/media/dOtVE7Fs3ydvi9q0VR/giphy.gif)
 
 ####  В зависимости от выбора сложности увеличивается количетсво карт
